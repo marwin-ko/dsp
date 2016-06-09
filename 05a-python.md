@@ -23,8 +23,8 @@ How are Python lists and sets similar and different? Give examples of using both
 Lists and sets are both mutable, iterables, and type agnostic. However, lists are ordered and sets are unordered. In addition, sets only contain unique elements (i.e. there is only one of each element with resepect to both symbol and type). 
 ```
 # Examples
-st = {1,2,3,4,4,'4','a'}    \# set
-ls = ['1',2,3,'4',4,4,'a']  \# list
+st = {1,2,3,4,4,'4','a'}    # set
+ls = ['1',2,3,'4',4,4,'a']  # list
 ```
 In terms of performance with respect to time-complexity, Big O, the look up time (average case senario) for a list and set is O(n) and O(1), respectively. A list traverses through itself to search for an element which makes the search time dependent on the n number
 of elements in the list, hence it's look up is O(n). On the other hand, since sets only contain unique elements they
@@ -101,7 +101,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+937 Days
 
 b.  
 ```
@@ -109,7 +109,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+513 Days
 
 c.  
 ```
@@ -117,7 +117,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+7850 Days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
