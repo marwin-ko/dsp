@@ -13,7 +13,26 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Linux/Mac OSX
+* pwd    => print working directory
+* mkdir  => make directory
+* cd     => change directory
+* ls     => list directory
+* rmdir  => remove directory
+* pushd  => push directory
+* popd   => pop directory
+* cp     => copy a file or directory
+* mv     => move a file or directory
+* xargs  => execute arguments
+* find   => find files
+* grep   => find things inside files
+* env    => look at your environment
+* echo   => print some arguments
+* export => export/set a new environment variable
+* exit   => exit the shell
+* sudo   => DANGER! become super user root DANGER!
+* chmod  => change permission modifiers
+* chown  => change ownership
 
 ---
 
@@ -28,7 +47,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* ls      => lists directory contents
+* ls -a   => list all files
+* ls -l   => list with long format
+* ls -lh  => list long format in human readable size
+* ls -lah => list all files in long format in human readable size 
+* ls -t   => sort by time & date
+* ls -Glp => inhibit display of grop information, list with long format, displays directories with /
 
 ---
 
@@ -36,7 +61,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+My favorite `ls` option commands are:
+
+1. ls -a  => lists all files
+2. ls -c  => lists files by file timestamp
+3. ls -d  => lists only directories
+4. ls -R  => lists subdirectories as well
+5. ls -u  => lists files by the file access time
 
 ---
 
@@ -44,7 +75,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+The `xargs` reads items from the standard input, delimited by blanks or new lines, and executes the command one or more times with any initial arguments followed by the items read from standard input. The following example code (see below) finds a file_name in or below the directory_name and deletes them.
+```
+find /directory_name -name file_name -type f -print | xargs /bin/rm -f 
+```
 
  
 
