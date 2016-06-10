@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I chose Emacs as my terminal editor since it is also inherently an IDE as opposed to vim and nano which are both just editors. On a sidenote, there are plugins that turn vim into an IDE (e.g. vim-latex).
 
 --
 
@@ -68,6 +68,4 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+I chose Sublime as my graphical editor since it is easy to work with, has a lot of related tutorials for it, and great overall community support via forums. However, I must note that I almost chose Atom for its great open source community contribution(s) but opted against Atom since it is relatively new and still buggy in its current state (I know it's buggy since I used it for a few months). Some interesting features of Sublime include instant project switch (Projects in sublime capture the full contents of the workspace, including modified and unsaved files. You can switch between projects in an instant, with no save prompts; all your modifications will be restored next time the project is opened.), plugin API (Sublime has a plugin API which can you can use to interactively experiment in real time. Also in the bootcamp, we will be tapping into APIs so this feature will be particularly useful), and split editing (Sublime offers split editing support so that you can edit files side by side, or edit two locations in the one file. In addition, it is possible to edit with as many rows and columns as you want.). Some useful keyboard shortcuts include (Ctrl+P) to quick-open files by name, (Ctrl+Shift+L) to split the selection into lines, and (Ctrl+D) to select the next occurence of the selected word. Sublime is customized with JSON files.
