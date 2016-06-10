@@ -142,7 +142,7 @@ def not_bad(s):
         else:
             return OG
     else:
-            return OG
+        return OG
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
