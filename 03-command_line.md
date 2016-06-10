@@ -41,7 +41,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-My favorite ls option commands are:
+My favorite `ls` option commands are:
 
 1. ls -a  => lists all files
 2. ls -c  => lists files by file timestamp
