@@ -27,14 +27,13 @@ What do the following commands do:
 `ls -lah`  
 `ls -t`  
 `ls -Glp`  
-
-⋅⋅⋅ls      => lists directory contents
-⋅⋅⋅ls -a   => list all files
-⋅⋅⋅ls -l   => list with long format
-⋅⋅⋅ls -lh  => list long format in human readable size
-⋅⋅⋅ls -lah => list all files in long format in human readable size 
-⋅⋅⋅ls -t   => sort by time & date
-⋅⋅⋅ls -Glp => inhibit display of grop information, list with long format, displays directories with /
+* ls      => lists directory contents
+* ls -a   => list all files
+* ls -l   => list with long format
+* ls -lh  => list long format in human readable size
+* ls -lah => list all files in long format in human readable size 
+* ls -t   => sort by time & date
+* ls -Glp => inhibit display of grop information, list with long format, displays directories with /
 
 ---
 
