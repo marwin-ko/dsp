@@ -55,7 +55,9 @@ My favorite `ls` option commands are:
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+The `xargs` reads items from the standard input, delimited by blanks or new lines, and executes the command one or more times with any initial arguments followed by the items read from standard input. The following example code (see below) finds a file_name in or below the directory_name and deletes them.
+```
+find /directory_name -name file_name -type f -print | xargs /bin/rm -f 
+```
+  
 
