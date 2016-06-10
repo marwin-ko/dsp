@@ -46,13 +46,18 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I installed Python 2. Although Python 3 is the present and future of the language, it is still under active developement. On the other hand, Python 2 is well established and still currently being utilized by a lot of programmers. In addition, I have already learned/practiced how to code in Python 2.
+
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I would enter and run the following code (see below) into a python script to check the version of python installed.
+```
+import sys
+print(sys.version)
+```
 
  
 
