@@ -28,13 +28,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls      => lists directory contents
-ls -a   => list all files
-ls -l   => list with long format
-ls -lh  => list long format in human readable size
-ls -lah => list all files in long format in human readable size 
-ls -t   => sort by time & date
-ls -Glp => inhibit display of grop information, list with long format, displays directories with /
+...ls      => lists directory contents
+...ls -a   => list all files
+...ls -l   => list with long format
+...ls -lh  => list long format in human readable size
+...ls -lah => list all files in long format in human readable size 
+...ls -t   => sort by time & date
+...ls -Glp => inhibit display of grop information, list with long format, displays directories with /
 
 ---
 
@@ -43,6 +43,7 @@ ls -Glp => inhibit display of grop information, list with long format, displays 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 My favorite ls option commands are:
+
 1. ls -a  => lists all files
 2. ls -c  => lists files by file timestamp
 3. ls -d  => lists only directories
