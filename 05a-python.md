@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-x
+>> REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -20,7 +20,7 @@ x
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-x
+>> REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -28,7 +28,7 @@ x
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-x
+>> REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -36,7 +36,7 @@ x
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-x
+>> REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
