@@ -19,7 +19,8 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
-There are 8 different degrees (MD,MA,ScD,BSEd, PhD, MPH, MS, JD) along with 1 person having zero (0) degrees. The frequency of each degree is displayed in a dictionary format as follows: {'MD': 1, 'MA': 1, 'ScD': 6, 'BSEd': 1, 'PhD': 31, '0': 1, 'MPH': 2, 'MS': 2, 'JD': 1}.
+There are 8 different degrees (MD,MA,ScD,BSEd, PhD, MPH, MS, JD) along with 1 person having zero (0) degrees. The frequency of each degree is displayed in a dictionary format as follows: 
+```{'MD': 1, 'MA': 1, 'ScD': 6, 'BSEd': 1, 'PhD': 31, '0': 1, 'MPH': 2, 'MS': 2, 'JD': 1}.```
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
@@ -77,8 +78,9 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 ```
 
 Print the first 3 key and value pairs of the dictionary:
-
-```{('Yimei', 'Li'): [' Ph.D.', 'Assistant Professor ', 'liy3@email.chop.edu'], ('Hongzhe', 'Li'): [' Ph.D', 'Professor of Biostat', 'hongzhe@upenn.edu'], ('Justine', 'Shults'): [' Ph.D.', 'Professor of Biostat', 'jshults@mail.med.upe']}```
+```
+{('Yimei', 'Li'): [' Ph.D.', 'Assistant Professor ', 'liy3@email.chop.edu'], ('Hongzhe', 'Li'): [' Ph.D', 'Professor of Biostat', 'hongzhe@upenn.edu'], ('Justine', 'Shults'): [' Ph.D.', 'Professor of Biostat', 'jshults@mail.med.upe']}
+```
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
