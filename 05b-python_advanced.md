@@ -84,9 +84,48 @@ Print the first 3 key and value pairs of the dictionary:
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> REPLACE THIS WITH YOUR RESPONSE
+```
+('Scarlett', 'Bellamy') : [' Sc.D.', 'Associate Professor ', 'bellamys@mail.med.up']
+('Warren', 'Bilker') : ['Ph.D.', 'Professor of Biostat', 'warren@upenn.edu']
+('Matthew', 'Bryan') : [' PhD', 'Assistant Professor ', 'bryanma@upenn.edu']
+('Jinbo', 'Chen') : [' Ph.D.', 'Associate Professor ', 'jinboche@upenn.edu']
+('Susan', 'Ellenberg') : [' Ph.D.', 'Professor of Biostat', 'sellenbe@upenn.edu']
+('Jonas', 'Ellenberg') : [' Ph.D.', 'Professor of Biostat', 'jellenbe@mail.med.up']
+('Rui', 'Feng') : [' Ph.D', 'Assistant Professor ', 'ruifeng@upenn.edu']
+('Benjamin', 'French') : [' PhD', 'Associate Professor ', 'bcfrench@mail.med.up']
+('Phyllis', 'Gimotty') : [' Ph.D', 'Professor of Biostat', 'pgimotty@upenn.edu']
+('Wensheng', 'Guo') : [' Ph.D', 'Professor of Biostat', 'wguo@mail.med.upenn.']
+('Yenchih', 'Hsu') : [' Ph.D.', 'Assistant Professor ', 'hsu9@mail.med.upenn.']
+('Rebecca', 'Hubbard') : [' PhD', 'Associate Professor ', 'rhubb@mail.med.upenn']
+('Wei-Ting', 'Hwang') : [' Ph.D.', 'Associate Professor ', 'whwang@mail.med.upen']
+('Marshall', 'Joffe') : [' MD MPH Ph.D', 'Professor of Biostat', 'mjoffe@mail.med.upen']
+('J.', 'Landis') : [' B.S.Ed. M.S. Ph.D.', 'Professor of Biostat', 'jrlandis@mail.med.up']
+('Yimei', 'Li') : [' Ph.D.', 'Assistant Professor ', 'liy3@email.chop.edu']
+('Mingyao', 'Li') : [' Ph.D.', 'Associate Professor ', 'mingyao@mail.med.upe']
+('Hongzhe', 'Li') : [' Ph.D', 'Professor of Biostat', 'hongzhe@upenn.edu']
+('A.', 'Localio') : [' JD MA MPH MS PhD', 'Associate Professor ', 'rlocalio@upenn.edu']
+('Nandita', 'Mitra') : [' Ph.D.', 'Associate Professor ', 'nanditam@mail.med.up']
+('Knashawn', 'Morales') : [' Sc.D.', 'Associate Professor ', 'knashawn@mail.med.up']
+('Kathleen', 'Propert') : [' Sc.D.', 'Professor of Biostat', 'propert@mail.med.upe']
+('Mary', 'Putt') : [' PhD ScD', 'Professor of Biostat', 'mputt@mail.med.upenn']
+('Sarah', 'Ratcliffe') : [' Ph.D.', 'Associate Professor ', 'sratclif@upenn.edu']
+('Michelle', 'Ross') : [' PhD', 'Assistant Professor ', 'michross@upenn.edu']
+('Jason', 'Roy') : [' Ph.D.', 'Associate Professor ', 'jaroy@mail.med.upenn']
+('Mary', 'Sammel') : [' Sc.D.', 'Professor of Biostat', 'msammel@cceb.med.upe']
+('Pamela', 'Shaw') : [' PhD', 'Assistant Professor ', 'shawp@upenn.edu']
+('Russell', 'Shin') : ['0', 'Assistant Professor ', 'rshi@mail.med.upenn.']
+('Haochang', 'Shou') : [' Ph.D.', 'Assistant Professor ', 'hshou@mail.med.upenn']
+('Justine', 'Shults') : [' Ph.D.', 'Professor of Biostat', 'jshults@mail.med.upe']
+('Alisa', 'Stephens') : [' Ph.D.', 'Assistant Professor ', 'alisaste@mail.med.up']
+('Andrea', 'Troxel') : [' ScD', 'Professor of Biostat', 'atroxel@mail.med.upe']
+('Rui', 'Xiao') : [' PhD', 'Assistant Professor ', 'rxiao@mail.med.upenn']
+('Sharon', 'Xie') : [' Ph.D.', 'Associate Professor ', 'sxie@mail.med.upenn.']
+('Dawei', 'Xie') : [' PhD', 'Assistant Professor ', 'dxie@upenn.edu']
+('Wei', 'Yang') : [' Ph.D.', 'Assistant Professor ', 'weiyang@mail.med.upe']
+```
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
+
 
 --- 
 
