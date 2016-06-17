@@ -25,7 +25,7 @@ There are 8 different degrees (MD,MA,ScD,BSEd, PhD, MPH, MS, JD) along with 1 pe
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
-There are 3 different titles (Assistant Professor, Associate Professor, Professor of Biostat). The frequency of each degree is displayed in a dictionary format as follows: {'Assistant Professor': 12, 'Associate Professor': 12, 'Professor of Biostat': 13}.
+There are 3 different titles (Assistant Professor, Associate Professor, Professor of Biostat). The frequency of each degree is displayed in a dictionary format as follows: ```{'Assistant Professor': 12, 'Associate Professor': 12, 'Professor of Biostat': 13}.```
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
