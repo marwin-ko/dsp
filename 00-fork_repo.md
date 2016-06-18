@@ -58,4 +58,3 @@ What is your favorite [emoji](http://www.emoji-cheat-sheet.com/)?
 :open_mouth:
 
 
-
