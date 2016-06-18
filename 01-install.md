@@ -57,7 +57,3 @@ I would enter and run the following code (see below) into a python script to che
 import sys
 print(sys.version)
 ```
-
- 
-
-
