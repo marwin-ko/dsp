@@ -70,29 +70,19 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
-P(I|T) = (P(I)*P(T|I))/(P(I)*P(T|I)+P(F)*P(T|F))
-P(I) = probability of identical twins = 1/300
-P(F) = probability of fraternal twins = 1/125
-P(T|I) = probability of twins given identical = 1/2
-P(T|F) = probability of twins given fraternal = (1/2)*(1/2) = 1/4
-
-P(I|T) = ((1/300)*(1/2))/((1/300)*(1/2)+(1/125)*(1/4))
-P(I|T) = (1/300)/((1/300)+(1/125)(1/2))
-P(I|T) = (1/300)/((1/300)+(1/250))
-P(I|T) = (1)/((300/300)+(300/250))
-P(I|T) = (1)/((1)+(300/250))
-P(I|T) = (1)/((250/250)+(300/250))
-P(I|T) = (1)/((550/250))
-P(I|T) = (1)/(11/5)
-P(I|T) = 5/11
-
 ```
+# Bayes' Theorem
+P(A|B) = (P(A)*P(B|A)/P(B)
+P(Ak|B) = (P(Ak)*P(B|Ak))/(P(A1)*P(B|A1)+P(A2)*P(B|A2)+...+P(An)*P(B|An))
+
+# Probability of an identical twin given the event that there are twins
 P(I|T) = (P(I)*P(T|I))/(P(I)*P(T|I)+P(F)*P(T|F))
 P(I) = probability of identical twins = 1/300
 P(F) = probability of fraternal twins = 1/125
 P(T|I) = probability of twins given identical = 1/2
 P(T|F) = probability of twins given fraternal = (1/2)*(1/2) = 1/4
 
+# Number crunching...
 P(I|T) = ((1/300)*(1/2))/((1/300)*(1/2)+(1/125)*(1/4))
 P(I|T) = (1/300)/((1/300)+(1/125)(1/2))
 P(I|T) = (1/300)/((1/300)+(1/250))
@@ -103,6 +93,9 @@ P(I|T) = (1)/((550/250))
 P(I|T) = (1)/(11/5)
 P(I|T) = 5/11
 ```
+ANSWER: The probability that Elvis was an identical twin is 5/11. 
+
+
 ---
 
 ###Q6. Bayesian &amp; Frequentist Comparison  
