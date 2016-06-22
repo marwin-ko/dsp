@@ -30,4 +30,3 @@ small/weak: d=0.2
 medium:d=0.5
 
 large/strong: d=0.8
-
