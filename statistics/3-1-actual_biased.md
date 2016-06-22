@@ -22,7 +22,7 @@ print 'Biased PMF Mean = ', biased_pmf.Mean()   # biased_mean=2.40
 #### ANSWER
 (insert image)
 
-Actual PMF Mean = 1.02
+Actual PMF Mean = 1.02 
 Biased PMF Mean = 2.40
 
 #### NOTES
