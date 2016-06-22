@@ -19,16 +19,13 @@ print 'Actual PMF Mean = ', actual_pmf.Mean()   # actual_mean=1.02
 print 'Biased PMF Mean = ', biased_pmf.Mean()   # biased_mean=2.40
 ```
 
-#### ANSWER
+## ANSWER
 Actual PMF Mean = 1.02
 
 Biased PMF Mean = 2.40
-
 ![alt text](https://github.com/marwin-ko/dsp/blob/master/statistics/METIS_3-1-actualVSbiased.png "Logo Title Text 1")
 
-
-
-#### NOTES
+## NOTES
 The data consists of number of children under 18 in a household. Households with no children would shift the mean towards zero which would not accurately illustrate the distribution of number of children in a household. As a result, the biased PMF also referred to as observed PMF, is a better statistical representation of the number of children under 18 in a household since the biased PMF omits holdholds with zero children.
 
 
