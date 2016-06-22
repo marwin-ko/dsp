@@ -27,5 +27,3 @@ Biased PMF Mean = 2.40
 
 ## NOTES
 The data consists of number of children under 18 in a household. Households with no children would shift the mean towards zero which would not accurately illustrate the distribution of number of children in a household. As a result, the biased PMF also referred to as observed PMF, is a better statistical representation of the number of children under 18 in a household since the biased PMF omits holdholds with zero children.
-
-
