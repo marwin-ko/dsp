@@ -105,6 +105,9 @@ How do frequentist and Bayesian statistics compare?
 |:---------:|:------:|
 |Data are repeatable|Data are fixed|
 |Parameters are fixed|Parameters are unknown and described probabilistically|
+|Evaluate paradigm|Modeling paradigm|
+|repeatability can be important|inference can be appropriate|
+|pi(probability) is the same for each study/experiment|pi (probability) has a prior distribution|
 |Describe variability in Xj (data) for a fixed pi (probability)|Describe variability in pi (probability) for a fixed Xj (data)|
 
 
