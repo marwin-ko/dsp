@@ -20,7 +20,8 @@ print 'Biased PMF Mean = ', biased_pmf.Mean()   # biased_mean=2.40
 ```
 
 #### ANSWER
-(insert image)
+Inline-style: 
+![alt text](https://github.com/marwin-ko/dsp/tree/master/statistics/METIS_3-1-actualVSbiased.png "Logo Title Text 1")
 
 Actual PMF Mean = 1.02
 
