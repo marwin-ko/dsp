@@ -17,10 +17,10 @@ answer = "The Cohen's D is {0:4.2f} which indicates a small effect size. Essenti
 print answer.format(D)
 ```
 
-#### ANSWER
+## ANSWER
 The Cohen's D is -0.09 which indicates a small effect size. Essentially, there is no significant difference between the two groups: first babies and other babies.
 
-#### NOTES
+## NOTES
 The larger the Cohen's D is, the stronger effect size there is and vice versa (smaller D, weaker effect size). A strong effect
 indicates some significant difference between two or more groups.
 
