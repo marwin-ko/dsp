@@ -1,5 +1,5 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
-
+```
 import math, first
 def CohensD(group1,group2):
     x1 = group1.mean()
@@ -15,7 +15,7 @@ live, firsts, others = first.MakeFrames()
 D = CohensD(firsts.totalwgt_lb, others.totalwgt_lb)
 answer = "The Cohen's D is {0:4.2f} which indicates a small effect size. Essentially, there is no significant difference between the two groups: first babies and other babies."
 print answer.format(D)
-
+```
 
 '''
 ANSWER
@@ -24,7 +24,10 @@ The Cohen's D is -0.09 which indicates a small effect size. Essentially, there i
 NOTES
 The larger the Cohen's D is, the stronger effect size there is and vice versa (smaller D, weaker effect size). A strong effect
 indicates some significant difference between two or more groups.
+
 small: d=0.2
+
 medium:d=0.5
+
 large: d=0.8
 '''
