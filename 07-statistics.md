@@ -101,8 +101,6 @@ ANSWER: The probability that Elvis was an identical twin is 5/11.
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
-(reference: http://www.stat.ufl.edu/archived/casella/Talks/BayesRefresher.pdf)
-
 |Frequentist|Bayesian|
 |:---------:|:------:|
 |Data are repeatable|Data are fixed|
@@ -112,6 +110,8 @@ How do frequentist and Bayesian statistics compare?
 |pi(probability) is the same for each study/experiment|pi (probability) has a prior distribution|
 |Describe variability in Xj (data) for a fixed pi (probability)|Describe variability in pi (probability) for a fixed Xj (data)|
 |interpretation of confidence: a collection of intervals with 90% of them containing the true parameter|interpretation of confidence: an interval that has a 90% chance of containing the true parameter|
+
+(reference: http://www.stat.ufl.edu/archived/casella/Talks/BayesRefresher.pdf)
 
 ---
 
